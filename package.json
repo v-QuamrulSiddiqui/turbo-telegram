@@ -1,0 +1,11 @@
+{
+  "name": "race-slash-command",
+  "version": "1.4.1",
+  "private": true,
+  "type": "module",
+  "description": "GitHub slash command (/race) that reviews accessibility issues/PRs with the WCAG Bug Reviewer engine and posts the result back.",
+  "scripts": {
+    "review": "node scripts/race-review.mjs",
+    "test": "node --test tests/"
+  }
+}
